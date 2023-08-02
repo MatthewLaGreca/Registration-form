@@ -1,0 +1,142 @@
+:root{
+    --color-darkblue: #022959;
+    --color-gray: #9699AA;
+    --color-bluegray: #abbcff;
+    --color-white: #fff;
+}    
+
+#personal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    background-color: #1e1e1e;
+}
+
+ul{
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    /* transform: translate(-50%, -50%); */
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.s p, .s h6{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.s p{
+    font-size: 14px;
+}
+
+.s h6{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.s::before{
+    color: #fff;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 100%;
+    float: left;
+}
+#step1::before{
+    content:"1";
+}
+
+#step2::before{
+    content: "2";
+}
+
+#step3::before{
+    content: "3";
+}
+
+#step4::before{
+    content: "4";
+}
+
+#image {
+    position: relative;
+    padding: 12px;
+}
+
+#label, h2{
+    color: #022959;
+}
+
+#step {
+    color: var(--color-bluegray);
+}
+
+#content{
+    color: #fff;
+}
+
+#steps {
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 940px;
+    max-height: 600px;
+    display: flex;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#personal p{
+    margin: 12px 0px;
+    color: var(--color-gray);
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+label{
+    margin-bottom: 4px;
+    color: #022959;
+    font-size: 16px;
+}
+
+#name_label{
+    margin-top: 16px;
+}
+
+button{
+    padding: 15px 24.5px;
+    border-radius: 8px;
+    background-color: #022959;
+    color: var(--color-white);
+    margin-bottom: 36px;
+    margin-right: 48px;
+}
+
+
+#button {
+    align-self: flex-end;
+}
